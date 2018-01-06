@@ -12,5 +12,6 @@ module Testgoogleapi
     config.load_defaults 5.1
 
     config.autoload_paths << Rails.root.join('lib')
+    config.eager_load_paths << Rails.root.join('lib')
   end
 end
