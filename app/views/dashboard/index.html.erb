@@ -1,0 +1,10 @@
+<% javascript_include_tag :drive_time %>
+
+<%= content_tag :h2, "Calculate drive time to nearest kitchen." %>
+
+<%= content_tag :p, 'Example: 123 Main St, Anywhere, OH' %>
+<%= text_field_tag 'address', nil, placeholder: 'Enter address...' %>
+<%= button_tag 'Calculate', id: 'calculate' %>
+<br /><br />
+<%= content_tag :div, '', id: 'duration' %>
+<%= content_tag :div, '', id: 'kitchen_address' %>
