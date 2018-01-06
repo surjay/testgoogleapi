@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Testing some google apis.
 
-Things you may want to cover:
+Requirements:
 
-* Ruby version
+* Ruby 2.2.5
 
-* System dependencies
+* Rails 5.1.4
 
-* Configuration
+* Postgresql 9.4.4
 
-* Database creation
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
